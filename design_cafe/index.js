@@ -58,3 +58,6 @@ jQuery(function(){
     jQuery(window).scroll();
   });
 
+ $(document).ready(function(){
+      $('.slider').bxSlider();
+    });

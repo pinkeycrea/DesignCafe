@@ -5,23 +5,17 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<title>Design Cafe Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 </head>
 
 <body>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="jquery.min.js"></script>
 	<script src="index.js"></script>
-	<div class="main-visual">
-		<div id="slide">
-			<img src="background01.jpg">
-			<img src="background02.jpg">
-			<img src="background03.jpg">
-			<img src="background04.jpg">
-		</div>
-
-		<div class="example">
-		<div id="header">
+	<div id="header">
 		<div class="right">
 			<nav>
 				<ul>
@@ -34,6 +28,15 @@
 			</nav>
 		</div>
 	</div>
+	<div class="main-visual">
+		<div id="slide">
+			<img src="background01.jpg">
+			<img src="background02.jpg">
+			<img src="background03.jpg">
+			<img src="background04.jpg">
+		</div>
+
+		<div class="example">
 			<h1>Design Cafe</h1>
 			<h2>Welcome to Designer</h2>
 		</div>
@@ -41,107 +44,116 @@
 
 	<!--ここからabout-->
 	<div class="fadein">
-<div class="about">
-		<div class="two">
-			<h1>ABOUT</h1>
-			<div id=item>
-				<div id=item1>
-					<img src="space.jpg">
-					<h1>Creative Space</h1>
-					<p>People who stay quietly alone,
-						<br>those who enjoy spending time
-						with friends,arelaxing cafe at
-						<br>each pace.
-					</p>
+		<div class="about">
+			<div class="two">
+				<h1>ABOUT</h1>
+				<div id=item>
+				<div class="slider">
+					<div id=item1>
+						<img src="space.jpg">
+						<h1>Creative Space</h1>
+						<p>People who stay quietly alone,
+							<br>those who enjoy spending time
+							with friends,arelaxing cafe at
+							<br>each pace.
+						</p>
 
 
+					</div>
+
+					<div id=item2>
+						<img src="coffee.jpg">
+						<h1>Space Blend</h1>
+						<p>Authentic roasting coffee green
+							<br>beans grown only with natural
+							<br>blessings Tipica, which is the
+							<br> Arabica species, in the shop.
+						</p>
+
+
+					</div>
+
+					<div id=item3>
+						<img src="designer.jpg">
+						<h1>Designer Community</h1>
+						<p>Authentic roasting coffee green
+							<br>beans grown only with natural
+							<br>blessings Tipica, which is the
+							<br> Arabica species, in the shop.
+						</p>
+
+					</div>
+					</div>
 				</div>
 
-				<div id=item2>
-					<img src="coffee.jpg">
-					<h1>Space Blend</h1>
-					<p>Authentic roasting coffee green
-						<br>beans grown only with natural
-						<br>blessings Tipica, which is the
-						<br> Arabica species, in the shop.
-					</p>
-
-
-				</div>
-
-				<div id=item3>
-					<img src="designer.jpg">
-					<h1>Designer Community</h1>
-					<p>Authentic roasting coffee green
-						<br>beans grown only with natural
-						<br>blessings Tipica, which is the
-						<br> Arabica species, in the shop.
-					</p>
-
-
-				</div>
 			</div>
-
 		</div>
 	</div>
-	
 
 	<!--ここからSTORY-->
-	<div class="discover">
-		<div id=item4>
-			<img src="mind.jpg">
-			<h1>DISCIVER </h1>
-			<h3>OUR STORY</h3>
-			<p>
-				<br>Dining cafe where you can spend your time while
-				<br>drinking coffee and wine in delicious meal in a
-				<br>comfortable space like lush green cozy "Oasis
-				<br>no Yoriki".
-				<br>We are offering a new lifestyle space that fuses
-				<br>quietly anone,people who enjoy spending time
-				<br>with friends,dining cafes that can be relaxed at
-				<br>their own pace and state-of-the-art Internet
-				<br>environment.</p>
+	<div class="fadein">
+		<div class="discover">
+			<div id=item4>
+				<img src="mind.jpg">
+				<h1>DISCIVER </h1>
+				<h3>OUR STORY</h3>
+				<p>
+					<br>Dining cafe where you can spend your time while
+					<br>drinking coffee and wine in delicious meal in a
+					<br>comfortable space like lush green cozy "Oasis
+					<br>no Yoriki".
+					<br>We are offering a new lifestyle space that fuses
+					<br>quietly anone,people who enjoy spending time
+					<br>with friends,dining cafes that can be relaxed at
+					<br>their own pace and state-of-the-art Internet
+					<br>environment.</p>
+			</div>
 		</div>
 	</div>
 
-	<div class="MENE">
-	<div id="mene">
-		<img src="cake.jpg">
-		<h1>MENE</h1>
-		<p>Cake Set ¥700
-			<br> ・Short-Cake
-			<br>・Mont-Blanc
-			<br>・Gareau Chocolat
-			<br>・Cheese Cake
-		</p>
+	<div class="fadein">
+		<div class="MENE">
+			<div id="mene">
+				<img src="cake.jpg">
+				<h1>MENE</h1>
+				<p>Cake Set ¥700
+					<br> ・Short-Cake
+					<br>・Mont-Blanc
+					<br>・Gareau Chocolat
+					<br>・Cheese Cake
+				</p>
+			</div>
 		</div>
 	</div>
 
-	<div class="access">
-		<h1>ACCESS</h1>
-		<div id="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3154710432423!2d135.4902925150171!3d34.69722219091253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f3599e44fd%3A0x4938403135c071ac!2z44CSNTMwLTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65pu-5qC55bSO5paw5Zyw77yS5LiB55uu77yW4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1569747470216!5m2!1sja!2sjp" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	<div class="fadein">
+		<div class="access">
+			<h1>ACCESS</h1>
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3154710432423!2d135.4902925150171!3d34.69722219091253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f3599e44fd%3A0x4938403135c071ac!2z44CSNTMwLTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65pu-5qC55bSO5paw5Zyw77yS5LiB55uu77yW4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1569747470216!5m2!1sja!2sjp" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<div id="time">
+				<h4>Hours</h4>
+				<h6>Weekday 10:00~21:00
+					<br>Holiday 10:00~23:00</h6>
+				<h5>Address</h5>
+				<h7>Japan,2 - chome Sonezakisinti
+					<br>Kita-ku ,Osaka 6-11
+					<br>Life is Tech!SCHOOL Osaka office</h7>
+			</div>
+			<div id="life">
+				<a href="https://life-is-tech.com">Reservation</a>
+			</div>
 		</div>
-		<div id="time">
-			<h4>Hours</h4>
-			<h6>Weekday 10:00~21:00
-				<br>Holiday 10:00~23:00</h6>
-			<h5>Address</h5>
-			<h7>Japan,2 - chome Sonezakisinti
-				<br>Kita-ku ,Osaka 6-11
-				<br>Life is Tech!SCHOOL Osaka office</h7>
-		</div>
-		<div id="life">
-<a href="https://life-is-tech.com">Reservation</a>
-</div>
 	</div>
-	</div>
-	
-	
-<footer>
-<p><small>Copyright &copy; Pinkey.All Right Reserved.</small></p>
-</footer>
 
 
-</body></html>
+
+	<footer>
+		<p><small>Copyright &copy; Pinkey.All Right Reserved.</small></p>
+	</footer>
+
+
+</body>
+
+</html>
